@@ -1,0 +1,2 @@
+# Advanced Course List 
+Defines a new object 'CourseListQ3' which builds upon the previous 'CourseListQ2' class developed for Q2. This class provides more additional methods for finding courses by department, finding courses by term, as well as removing these results from the total course list.

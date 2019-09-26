@@ -135,7 +135,7 @@ public class LinkedList {
       word = pointer.getData();
       
       if(line.length() == 0)
-        line = word; // start first line
+        line = word; // start very first line
       
       else if(line.length() + word.length() + 1 <= width)
            line += " " + word; // add subsequent words with spaces
@@ -148,7 +148,7 @@ public class LinkedList {
            else
             result += justifyRight(line, width) + "\n";
            
-           line = ""; // reset line
+           line = word; // save first word of next line
          }//else
      
       pointer = pointer.getNext(); 

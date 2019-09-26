@@ -108,15 +108,15 @@ public class ConwaysLife {
   {
     int count = 0;
     
-    if (row - 1 > 0 && col - 1 > 0 && board[row - 1][col - 1]) //top left
+    if (row - 1 >= 0 && col - 1 >= 0 && board[row - 1][col - 1]) //top left
     {
       count ++; 
     }
-    if (row > 0 && board[row - 1][col]) //top
+    if (row - 1 >= 0 && board[row - 1][col]) //top
     {
       count ++; 
     }
-    if (row - 1 > 0 && col + 1 < boardSize && board[row - 1][col + 1]) //top right
+    if (row - 1 >= 0 && col + 1 < boardSize && board[row - 1][col + 1]) //top right
     {
       count ++; 
     }
@@ -132,11 +132,11 @@ public class ConwaysLife {
     {
       count ++; 
     }
-    if (row + 1 < boardSize && col - 1 > 0 && board[row + 1][col - 1]) //bottom left
+    if (row + 1 < boardSize && col - 1 >= 0 && board[row + 1][col - 1]) //bottom left
     {
       count ++; 
     }
-    if (col - 1 > 0 && board[row][col - 1]) //left
+    if (col - 1 >= 0 && board[row][col - 1]) //left
     {
       count ++; 
     }

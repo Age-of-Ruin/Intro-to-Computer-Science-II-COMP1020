@@ -1,0 +1,2 @@
+# Database Class
+The database class has been added to courseListQ2 (from A1) which further adds the ability the read/write information from/to a txt file. Course.java has been modified slightly to detect duplicate CRNs. CourseListQ2.java has been modified with additional methods for returning the number of courses as well as finding a course based on list index.

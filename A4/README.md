@@ -1,0 +1,2 @@
+# Linked List
+LinkedList.java implements a linkedList using 2 classes (namely LinkedList and Node). A4Q1 simply reads and stores the darwin.txt into the linked list (each word being 1 node), then proceeds to print a formatted/justified copy of it. A4Q2 adds upon this by printing the UNIQUE words found in alphabetical order.

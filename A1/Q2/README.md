@@ -1,0 +1,2 @@
+# Simple List of Courses
+Defines a new object 'CourseListQ2' which builds upon the previous 'Course' class developed for Q1. This class provides methods for adding and removing courses from the list, as well as printing the entire list of courses.
